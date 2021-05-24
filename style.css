@@ -101,6 +101,15 @@ header .header-profiles {
     display: table;
 }
 
+/*app banner*/
+.app-banner{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-repeat: no-repeat;
+    background-image: url('img/pnk1.gif');
+    margin-left: 5px;
+}
+
 /*centre of My Profile heading*/
 
 .vertical-center {
