@@ -101,13 +101,18 @@ header .header-profiles {
     display: table;
 }
 
+
 /*app banner*/
 .app-banner{
-    width: 100%;
+    width: 80%;
     height: calc(100vh - 100px);
     background-repeat: no-repeat;
     background-image: url('img/pnk1.gif');
-    margin-left: 5px;
+    display: block;
+    margin-left: 250px;
+    margin-right: auto;
+
+
 }
 
 /*centre of My Profile heading*/
@@ -377,14 +382,13 @@ ul li {
   display: block;
 
 }
+
+
 .head-logo{
   padding: 0px !important;
   background-color: #287994 !important;
 
 }
-
-
-
 /*TEAM Review PAGE*/
 .review-banner {
     width: 100%;
