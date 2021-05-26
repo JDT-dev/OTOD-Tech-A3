@@ -2,22 +2,24 @@
 <html>
 <title>Pups & Kids</title>
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="App_Style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size: 16px;}
 img {margin-bottom: -8px;}
 .mySlides {display: none;}
 </style>
+<a href="index.html" class="m"><img src="img/OTOD-logo.png" width="200px" height="150px"></a>
 <body class="content figma" style="max-width:1300px;">
 
 <!-- Header with Slideshow -->
 <header class="display-container center">
-  <button class="button block green hide-large hide-medium" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button>
-  <div class="mySlides animate-opacity">
+
     <img class="image" src="Images/Pup1.jpg" alt="Image 1"  width="100%" height="1000">
     <div class="display-left padding hide-small" style="width:35%">
       <div class="black opacity hover-opacity-off padding-large round-large">
@@ -27,31 +29,8 @@ img {margin-bottom: -8px;}
         <p><button class="button block green round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
       </div>
     </div>
-  </div>
-  <div class="mySlides animate-opacity">
-    <img class="image" src="Images/Pup2.jpg" alt="Image 2"  width="100%" height="1000">
-    <div class="display-left padding hide-small" style="width:35%">
-      <div class="black opacity-1 hover-opacity-off padding-large round-large">
-        <h1 class="xlarge text-red"><b>EASY!</b><br> Training made easy with the<br> 'Pups & Kids' app</h1>
-        <hr class="opacity-1">
-        <p>Don't Delay! Your puppy needs socialising Now!</p>
-        <p><button class="button block red round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
-      </div>
-    </div>
-  </div>
-  <div class="mySlides animate-opacity">
-    <img class="image" src="Images/Pup3.jpg" alt="Image 3" width="100%" height="000">
-    <div class="display-left padding hide-small" style="width:35%">
-      <div class="black opacity hover-opacity-off padding-large round-large">
-        <h1 class="xlarge">Social network service for your pups!</h1>
-        <hr class="opacity">
-        <p>Help your pups to socialise with friends</p>
-        <p><button class="button block indigo round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
-      </div>
-    </div>
-  </div>
-  <a class="button black display-right margin-right round hide-small hover-light-grey" onclick="plusDivs(1)"> See more <i class="fa fa-angle-right"></i></a>
-  <a class="button block black hide-large hide-medium" onclick="plusDivs(1)"> See more <i class="fa fa-angle-right"></i></a>
+
+
 </header>
 
 <!-- The App Section -->
@@ -68,7 +47,7 @@ img {margin-bottom: -8px;}
       <p>Available for <i class="fa fa-android xlarge text-green"></i> <i class="fa fa-apple xlarge"></i> <i class="fa fa-windows xlarge text-blue"></i></p>
     </div>
     <div class="col l4 m6">
-      <img src="Images/Snap.png" class="right hide-small " width="350" height="650">
+      <img src="Images/Snap.PNG" class="right hide-small " width="350" height="650">
     </div>
   </div>
 </div>
@@ -95,7 +74,7 @@ img {margin-bottom: -8px;}
 
 <div class="padding-64 white">
   <div class= row-padding>
-    <img class=" padding-side " src="Images/pup4.jpg" alt="App" width= 80% height= 500px style="margin-left:100px">
+    <img class=" padding-side " src="Images/pup2.jpg" alt="App" width= 80% height= 500px style="margin-left:100px">
   </div>
 </div>
 
@@ -237,26 +216,7 @@ img {margin-bottom: -8px;}
   <p class="medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="hover-text-green">w3.css</a></p>
 </footer>
 
-<script>
-// Slideshow
-var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
 
 </body>
 </html>
