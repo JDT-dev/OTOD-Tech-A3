@@ -297,7 +297,9 @@ ul li {
   margin-left: 85px;
 }
 
-
+.large{
+  font-size: 18px;
+}
 /* Style the side navigation */
 .sidenav {
   height: 100%;
@@ -411,6 +413,10 @@ h2 {
     line-height: 50px;
     display: table-cell;
     vertical-align: middle;
+}
+
+.center{
+  text-align: center;
 }
 
 .review-banner {
